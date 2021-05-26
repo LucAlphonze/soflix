@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'; 
+import {Fade} from 'react-awesome-reveal';
 import axios from '../axios';
 import './Row.css'
 const baseImgUrl = "https://image.tmdb.org/t/p/original"; 
+
 
 function Row({ title, fetchUrl, isLargeRow  }) {
     const [movies, setMovies] = useState([]); 
@@ -19,6 +21,7 @@ function Row({ title, fetchUrl, isLargeRow  }) {
     return (
         <div className= "row">
             <h2>{title}</h2>
+            <Fade left> 
             <div className= "row_posters">
                 {movies && movies.map(movie => (
                     <img 
@@ -28,6 +31,7 @@ function Row({ title, fetchUrl, isLargeRow  }) {
                     alt={movie.name} />
                 ))}
             </div>
+            </Fade>
         </div>
     )
 }

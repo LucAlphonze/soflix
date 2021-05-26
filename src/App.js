@@ -10,9 +10,10 @@ import About from './components/About'
 function App () {
   return (
     <div className='app'>
-      <Banner />
+      
       <Route exact path='/' component={Presentation} />
       <Route exact path= '/about' component= {About} /> 
+      <Route exact path='/home' component={Banner}/>
       <Route exact path='/home' render={() => <Row title='NETFLIX ORIGINALS' fetchUrl={requests.fetchNetflixOriginals} isLargeRow />} />
       <Route exact path='/home' render={() => <Row title='Trending Now' fetchUrl={requests.fetchTrending} />} />
       <Route exact path='/home' render={() => <Row title='Top Rated' fetchUrl={requests.fetchTopRated} />} />

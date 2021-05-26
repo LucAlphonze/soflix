@@ -1,4 +1,6 @@
 .row{
+    color: white;
+    text-shadow: 1px 1px 2px rgb(64, 68, 64);
     margin-left: 20px;
 }
 
