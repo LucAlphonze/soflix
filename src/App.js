@@ -6,12 +6,15 @@ import requests from './requests.js'
 import Banner from './components/Banner'
 import Presentation from './components/Presentation'
 import About from './components/About'
+import Nav from './components/Nav'
 
 function App () {
   return (
     <div className='app'>
       
       <Route exact path='/' component={Presentation} />
+      <Route exact path= '/home' component= {Nav} /> 
+      <Route exact path= '/about' component= {Nav} /> 
       <Route exact path= '/about' component= {About} /> 
       <Route exact path='/home' component={Banner}/>
       <Route exact path='/home' render={() => <Row title='NETFLIX ORIGINALS' fetchUrl={requests.fetchNetflixOriginals} isLargeRow />} />
