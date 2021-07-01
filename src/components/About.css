@@ -7,14 +7,7 @@
     flex-wrap: wrap;
 }
 
-.about_comp p {
-color: white;
-position: fixed;
-text-align: justify;
-font-size: 20px;
-width: 50%;
-text-shadow: rgb(78, 78, 75) 1px 0 4px;
-}
+
 
 .back {
     height: 600px;
@@ -24,19 +17,23 @@ text-shadow: rgb(78, 78, 75) 1px 0 4px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    flex-direction: column;
     box-shadow: 3px 3px 5px rgb(20 20 20 / 80%);
     background: linear-gradient(80deg, rgb(92, 46, 46) 0%, rgb(228, 28, 28) 35%, rgb(223, 122, 55) 100%);
 }
 
+.back p {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    width: 60%;
+    text-shadow: rgb(78, 78, 75) 1px 0 4px;
+    }
 
-
-.about_comp h1 {
+.back h1 {
     font-size: 50px;
     color:white;
-    display: flex;
-    align-self: flex-start;
-    justify-self: center;
-    margin-left: 200px;
+    margin-bottom: 50px;
     max-height: 80%;
     text-shadow: 1px 1px 2px rgb(67, 68, 67);
     max-width: 100%;
