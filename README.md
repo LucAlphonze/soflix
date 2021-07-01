@@ -2,7 +2,9 @@
 
 Hi! This is SOFLIX, a Netflix clone where you can watch your favorites TV show's and movies trailers!
 
-All feedback is welcome.
+SOFLIX was created using only ReactJS, HTML and CSS.
+
+All feedback is welcome!
 
 If you like my work you can find me on Linkedin :smile: :
 
