@@ -7,11 +7,12 @@ import Banner from './components/Banner'
 import Presentation from './components/Presentation'
 import About from './components/About'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function App () {
   return (
     <div className='app'>
-      
+     
       <Route exact path='/' component={Presentation} />
       <Route exact path= '/home' component= {Nav} /> 
       <Route exact path= '/about' component= {Nav} /> 
@@ -25,6 +26,7 @@ function App () {
       <Route exact path='/home' render={() => <Row title='Horror Movies' fetchUrl={requests.fetchHorrorMovies} />} />
       <Route exact path='/home' render={() => <Row title='Romance Movies' fetchUrl={requests.fetchRomanceMovies} />} />
       <Route exact path='/home' render={() => <Row title='Documentaries' fetchUrl={requests.fetchDocumentaries} />} />
+      <Route exact path= '/home' component= {Footer} /> 
     </div>
   )
 }
