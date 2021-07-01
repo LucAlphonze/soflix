@@ -4,6 +4,10 @@
     margin-left: 20px;
 }
 
+.link {
+    text-decoration:none;
+}
+
 .row_posters {
     display: flex;
     overflow-y: hidden;

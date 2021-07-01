@@ -42,6 +42,7 @@ function Row({ title, fetchUrl, isLargeRow  }) {
 
     return (
         <div className= "row">
+           
             <h2>{title}</h2>
             <Fade left> 
             <div className= "row_posters">
@@ -57,6 +58,7 @@ function Row({ title, fetchUrl, isLargeRow  }) {
             </div>
             </Fade>
             {trailerUrl && <Youtube videoId={trailerUrl} opts={opts} />}
+           
         </div>
     )
 }

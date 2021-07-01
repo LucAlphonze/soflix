@@ -1,12 +1,23 @@
 .background {
     background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    linear-gradient(
+     
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    ),
     url('https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/d4c7ac78-1248-4b1b-9a91-b550524a16a8/AR-es-20210517-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    overflow:hidden;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-
+ 
 .fadeBottom {
-    height: 730px;
+    height: 750px;
     background-image: linear-gradient(
       170deg,
       transparent,
@@ -14,3 +25,70 @@
       #111
     );
   }
+ 
+  .p_container {
+    height: 600px;
+    border-radius: 30px;
+    width: 800px;
+    background-image: linear-gradient(80deg, rgb(92, 46, 46) 0%, rgb(231, 0, 0) 35%, rgb(223, 122, 55) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 5px rgb(20 20 20 / 80%);
+  }
+  .p_container img{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
+
+
+  .welcome {
+   
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 2px rgb(64, 68, 64);
+   
+    max-width: 500px;
+  }
+
+  
+  .button_home {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+  .button_home {
+   /*   position: fixed;
+     right: 680px;
+     bottom: 170px; */
+     
+    
+    /*  margin: 10px; */
+     padding: 15px 45px;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 10px rgb(73, 69, 69);
+     border-radius: 10px;
+    
+     max-width: 250px;
+   }
+
+   .button_home:hover {
+     background-position: right center; /* change the direction of the change here */
+     text-decoration: none;
+     transition: transform .5s ease;
+     transform: scale(1.1);
+   }
+
+   .link_text { 
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.52);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    max-width: 50px;
+   }
+
+  /*  .link_text:hover {
+     color: ;
+   } */
+  
