@@ -9,11 +9,6 @@ function About() {
     return (
         <Fade left> 
         <div className= "about_comp">
-            {/* <div className='image_cont'> 
-            <img 
-            src= {a}
-            alt= 'IMAGES' /> */}
-            {/* </div> */}
          <div className="back">
         <h1 className= "hi">HI THERE!</h1>
         <p>I'm Sofia, a 20 years old Full Stack Developer. I'm passionate about Front-End, but I also like Back-End.
