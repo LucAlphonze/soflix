@@ -9,7 +9,7 @@ SOFLIX was created using only ReactJS, HTML and CSS.
 #### Repository link [here](https://github.com/sofiarocchietti/soflix)
 #### Deployed project [here](https://soflix.vercel.app/home)
 
---
+
 
 ## All feedback is welcome!
 
