@@ -4,7 +4,7 @@ Hi! This is SOFLIX, a clone from another app you already know where you can watc
 
 SOFLIX was created using only ReactJS, HTML and CSS.
 
-This is a clone from another app you already know 😉. You can watch your favorite movie trailers!
+This is a clone from another app you already know 😉. You can watch your favorite movies and TV Shows trailers!
 
 [<img src="https://github.com/sofiarocchietti/sofiarocchietti/blob/main/img/SOFLIX.gif"/>](https://github.com/sofiarocchietti/soflix) 
 ---
